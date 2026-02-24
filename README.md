@@ -1,3 +1,21 @@
+# CI/CD & GitHub Actions Complete Guide
+
+## Table of Contents
+1. [Introduction](#introduction)
+   - [CI (Continuous Integration)](#introduction)
+   - [CD (Continuous Deployment)](#introduction)
+2. [What is GitHub Actions?](#what-is-github-actions)
+   - [How GitHub Actions Automates Workflows](#how-does-github-actions-automate-these-workflows)
+3. [Workflow Configuration (.yml)](#to-create-a-workflow-we-need-to-create-a-yml-file)
+   - [Step-by-Step Workflow Breakdown](#step-by-step-explanation)
+   - [Matrix Strategy (Multiple Node Versions)](#2-strategy-matrix-node-version-)
+   - [Inside Steps](#inside-steps--runs-inside-each-vm-per-version)
+4. [Important Concepts](#imp-tricky-parts)
+   - [Pre-built vs Custom Actions](#imp-tricky-parts)
+   - [CI vs Automation Workflows](#imp-tricky-parts)
+
+---
+
 ## introduction
 
 **CI (Continuous Integration):**
